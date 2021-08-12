@@ -12,6 +12,9 @@
     }
   },
   "City": {
-    "name": { "string": {} }
+    "name": { "string": [
+      "Moscow",
+      "Saint Peterburg"
+    ] }
   }
 }
