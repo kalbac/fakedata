@@ -12,6 +12,6 @@
     }
   },
   "City": {
-    { "name": { "string": {} }
+    "name": { "string": {} }
   }
 }
