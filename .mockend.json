@@ -12,12 +12,23 @@
         "maxLength": 500
       }
     },
+    "photo": {
+      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080"
+    },
     "comments": {
       "hasMany": "Comment"
     }
   },
   "Comment": {
-    "body": { "string": {} },
+    "body": {
+      "loremParagraphs": {
+        "minLength": 200,
+        "maxLength": 500
+      }
+    },
+    "user" {
+      "belongsTo": "User"
+    },
     "post": {
       "belongsTo": "Post"
     }
