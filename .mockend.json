@@ -26,11 +26,8 @@
         "maxLength": 500
       }
     },
-    "user": {
+    "author": {
       "belongsTo": "User"
-    },
-    "post": {
-      "belongsTo": "Post"
     }
   },
   "City": {
