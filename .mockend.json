@@ -30,12 +30,7 @@
       "belongsTo": "User"
     }
   },
-  "User": {
-    "name: {
-      "regexp": "[A-Z][a-z]{5,10}"
-    },
-    "hasMany": "Post"
-  },
+  "User": { "name": { "regexp": "[A-Z][a-z]{5,10}" } },
   "City": {
     "name": { "string": [
       "Moscow",
